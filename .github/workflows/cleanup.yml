@@ -3,7 +3,7 @@ name: Clean artifacts
 # Run cleanup workflow at the end of every day
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 1 * *'
 
 jobs:
   clean:
